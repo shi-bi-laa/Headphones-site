@@ -1,0 +1,100 @@
+
+        /* Add some basic styling to position the overlay */
+        section {
+            position: relative;
+        }
+
+        .frst {
+            width: 100%;
+           
+            height: auto;
+            display: block;
+        }
+        .frst img{
+            width: 100%;
+            height: 750px;
+            position: fixed;
+           z-index: -1;
+        }
+        .navbar {
+            background-color: goldenrod; /* Set navbar background color to transparent */
+            position: sticky;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 350px;
+            left: 50px;
+            width: 500px;
+            font-family: 'Merriweather', serif;
+           
+           /* Adjust the overlay color and opacity as needed */
+            display: flex;
+            
+            color: rgb(7, 7, 7); /* Adjust text color */
+            z-index: 1; /* Ensure the overlay is above the image */
+        }
+
+        .overlay h1 {
+            margin: 0;
+        }
+
+        button:hover{
+            background-color: rgb(194, 174, 149);
+            
+           
+        }
+        .second{
+            width: 100%;
+           
+            margin-top: 700px;
+            padding: 30px;
+        }
+.container{
+    width: 100%;
+}
+
+.gallery img:hover {
+    opacity: 0.3; /* Adjust the opacity value as needed */
+    transition: opacity 0.3s ease; /* Add a smooth transition effect */
+}
+
+
+.fourth{
+    width: 100%;
+   
+}
+
+
+.row3 {
+    display: flex;
+    width: 80%;
+   margin-left: 150px;
+}
+
+.col-3 {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    
+}
+
+.text1 {
+    font-size: 100px;
+    color: goldenrod;
+}
+
+.text2 {
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+   /* Adjust the color as needed */
+}
+span:hover{
+    text-shadow: 4px black;
+}
